@@ -14,6 +14,10 @@ module.exports = {
         database: {
             host: process.env.DB_HOST,
             port: process.env.PORT,
+            name: process.env.NAME,
+            dialect: process.env.DIALECT,
+            user: process.env.USER,
+            password: process.env.PASSWORD,
         }
     }
 }
